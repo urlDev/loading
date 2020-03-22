@@ -1,10 +1,13 @@
 import React from "react"
 
+import Head from "../components/Head"
+
 import "../styles/index.css"
 
 const Index = () => {
   return (
     <div className="container">
+    <Head/>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="541"
