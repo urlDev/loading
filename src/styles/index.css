@@ -1,0 +1,56 @@
+* {
+    border-style: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #FBFAFE;
+}
+
+.container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container svg {
+    width: 80px;
+    height: 80px;
+}
+
+#border {
+    animation: colorChange 4s infinite alternate ease-in-out;
+}
+
+.container h1 {
+    border: 2px solid #1C528A;
+    padding: 10px 20px;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    color: #1C528A;
+    font-weight: normal;
+}
+
+@keyframes colorChange {
+    0% {
+        fill: #980b8a;
+    }
+    20% {
+        fill: #69CDCD;
+    }
+    40% {
+        fill: #FFD4C4;
+    }
+    60% {
+        fill: #1C528A;
+    }
+    80% {
+        fill: #E45865;
+    }
+    100% {
+        fill: #980b8a;
+    }
+}
